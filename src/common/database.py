@@ -4,7 +4,7 @@ import pymongo
 
 
 class Database(object):
-    URI = os.environ.get('MONGOLAB_URI')
+    URI = os.environ.get('MONGOLAD_URI')
     DATABASE = None
 
     @staticmethod
