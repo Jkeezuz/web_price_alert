@@ -1,5 +1,7 @@
-PASSWORD = 'testowyziomek12'
+import os
+
+PASSWORD = os.environ.get('SMTP_PASS')
 SUBJECT = 'PRICE ALERT'
-EMAIL_ADDRESS = 'testertestowytestow@gmail.com'
+EMAIL_ADDRESS = os.environ.get('SMTP_LOGIN')
 ALERT_TIMEOUT = 0.01
 COLLECTION = 'alerts'
