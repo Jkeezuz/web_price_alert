@@ -1,4 +1,5 @@
 # web_price_alert
+
 A simple page that let's you set up alerts for specific items from given set of stores.
 When creating an alert you pass the name, URL and the price limit for given item.
 If the price on the website becomes equal or less that given limit you will receive an email with the alert information about the discount on your item.
