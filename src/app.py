@@ -6,7 +6,7 @@ import src.models.stores.views
 import src.models.users.views
 
 app = Flask(__name__)
-app.config.from_object('config_default.py')
+app.config.from_object('src.config_default')
 
 app.secret_key = "123" # Just for testing purpose, change it later to a secure key
 
