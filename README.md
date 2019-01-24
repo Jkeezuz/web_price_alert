@@ -9,6 +9,3 @@ You add stores by passing its URL prefix, tag name and query specific for given 
 
 
 Website created as a part of Udemy course in order to train web-app development, to learn Python, Flask, Jinja, HTML/CSS/Bootstrap and sending emails through SMTP.
-Website available at:
-https://web-price-alert.herokuapp.com/
-It's still under construction I need to implement exception handling and many other things.
